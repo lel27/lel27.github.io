@@ -1,0 +1,16 @@
+#firstbox {
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    border: dashed;
+    padding: 5px;
+}
+
+#secondbox {
+    width: 300px;
+    height: 200px;
+    background: lightslategray;
+    border: ridge;
+    padding: 10px;
+    margin-top: 20px;
+}
