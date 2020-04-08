@@ -66,7 +66,7 @@ section {
 #footer {
   padding: 10px;
   background: orange;
-  position: sticky
+  position: absolute
 }
 
   {
