@@ -1,5 +1,8 @@
 <style>
 body {
-  background-image: url('assests/images/SU.jpg');
+  background-image: url('SU.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 </style>
