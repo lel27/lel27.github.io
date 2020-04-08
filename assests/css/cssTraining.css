@@ -1,0 +1,54 @@
+.section {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid red;
+    margin-top: 15px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+}
+
+.different {
+    background-color: teal;
+    outline: 5px dashed thistle;
+}
+
+.bigger-size {
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+h5 {
+    color:lightblue;
+}
+
+.whiteText {
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+
+.text-background {
+    background-color: grey;
+}
+
+.furniture-image {
+    background-image: url("../images/travolta.jpg");
+}
+
+.cupcake-image {
+    background-image: url("../images/SU.jpg");
+}
+
+.panda-image {
+    background-image: url("../images/Claire\ BA.jpg");
+}
+
+.fruit-image {
+    background-image: url("../images/animal\ crossing.jpg");
+}
+
+.hide {
