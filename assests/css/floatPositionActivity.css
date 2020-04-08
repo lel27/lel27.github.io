@@ -1,5 +1,4 @@
-
- * {
+* {
   box-sizing: border-box;
 }
 
@@ -35,8 +34,8 @@ section {
   width: 80%;
   height: 350px;
   background-color: darkolivegreen;
-  width:80%;
-  float:left;
+  width: 80%;
+  float: left;
   color: white;
   padding: 20px;
 }
@@ -44,23 +43,23 @@ section {
 #left {
   width: 30%;
   padding: 10px;
-  height: 450px;
+  height: 400px;
   color: white;
-  background:grey;
+  background: grey;
   float: left;
 }
 
 #middle {
   width: 30%;
   padding: 10px;
-  background:lightgray;
+  background: lightgray;
   float: left;
 }
 
 #right {
   padding: 10px;
-  background:grey;
-  height: 450px;
+  background: grey;
+  height: 400px;
   color: white;
 }
 
@@ -68,4 +67,17 @@ section {
   padding: 10px;
   background: orange;
   position: sticky
+}
+
+  {
+  <style>.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    </style>
+  }
 }
