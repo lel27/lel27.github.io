@@ -66,18 +66,11 @@ section {
 #footer {
   padding: 10px;
   background: orange;
-  position: sticky
-}
-
-  {
-  <style>.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 90%;
-    background-color: orange;
-    color: grey;
-    text-align: center;
-    </style>
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  background-color: orange;
+  color:whitesmoke;
+  text-align: center;
 }
