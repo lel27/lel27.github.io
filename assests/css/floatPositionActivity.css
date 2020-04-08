@@ -15,7 +15,7 @@ h4 {
 body {
   font-size: 24px;
   line-height: 32px;
-  color: #333;
+  color: firebrick;
   font-family: "Roboto Slab", sans-serif;
   padding: 10px;
 }
@@ -26,7 +26,7 @@ section {
 }
 
 #sidebar {
-  background: #eee;
+  background: seagreen;
   height: 300px;
   padding: 20px;
   width: 20%;
