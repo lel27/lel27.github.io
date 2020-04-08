@@ -36,7 +36,7 @@ section {
 #largeContent {
   width: 80%;
   height: 300px;
-  background-color: #6ea3da;
+  background-color: turquoise;
   width:80%;
   float:left;
   color: white;
@@ -47,26 +47,26 @@ section {
   width: 30%;
   padding: 10px;
   height: 400px;
-  color: #fff;
-  background: #666;
+  color: white;
+  background:grey;
   float: left;
 }
 
 #middle {
   width: 30%;
   padding: 10px;
-  background: #888;
+  background:lightgray;
   float: left;
 }
 
 #right {
   padding: 10px;
-  background: #666;
+  background:grey;
   height: 400px;
   color: white;
 }
 
 footer {
   padding: 10px;
-  background: #ccc;
+  background: lightcoral;
 }
