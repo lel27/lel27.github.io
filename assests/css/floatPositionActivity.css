@@ -44,7 +44,7 @@ section {
 #left {
   width: 30%;
   padding: 10px;
-  height: 450px;
+  height: 400px;
   color: white;
   background:grey;
   float: left;
@@ -60,7 +60,7 @@ section {
 #right {
   padding: 10px;
   background:grey;
-  height: 450px;
+  height: 400px;
   color: white;
 }
 
