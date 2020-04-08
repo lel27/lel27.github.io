@@ -67,4 +67,5 @@ section {
 footer {
   padding: 10px;
   background: lavenderblush;
+  position: sticky;
 }
