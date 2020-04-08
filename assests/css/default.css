@@ -6,7 +6,7 @@
 
 body {
     background-color: paleturquoise;
-    background-image: <img src="assests/images/SU.jpg" width="200" height="auto">;
+    background-image: url("../images/SU.jpg");
     background-size: cover;
 }
 
