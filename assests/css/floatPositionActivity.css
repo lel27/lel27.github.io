@@ -64,8 +64,8 @@ section {
   color: white;
 }
 
-footer {
+#bottom-footer {
   padding: 10px;
   background: lavenderblush;
-  position: sticky;
+  position: absolute
 }
