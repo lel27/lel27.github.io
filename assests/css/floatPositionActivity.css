@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -75,82 +74,10 @@ section {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     background-color: orange;
     color: white;
     text-align: center;
     </style>
   }
-=======
-
- * {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  font-size: 24px;
-  line-height: 32px;
-  color: darkblue;
-  font-family: "Roboto Slab", sans-serif;
-  padding: 10px;
-}
-
-section {
-  margin-bottom: 20px;
-  clear: both;
-}
-
-#sidebar {
-  background: lightgoldenrodyellow;
-  height: 350px;
-  padding: 20px;
-  width: 20%;
-  float: left;
-}
-
-#largeContent {
-  width: 80%;
-  height: 350px;
-  background-color: darkolivegreen;
-  width:80%;
-  float:left;
-  color: white;
-  padding: 20px;
-}
-
-#left {
-  width: 30%;
-  padding: 10px;
-  height: 400px;
-  color: white;
-  background:grey;
-  float: left;
-}
-
-#middle {
-  width: 30%;
-  padding: 10px;
-  background:lightgray;
-  float: left;
-}
-
-#right {
-  padding: 10px;
-  background:grey;
-  height: 400px;
-  color: white;
-}
-
-#footer {
-  padding: 10px;
-  background: orange;
-  position: sticky
->>>>>>> f08be0a7d7b135369426a5dd3153f0e3f05a98bd
 }
