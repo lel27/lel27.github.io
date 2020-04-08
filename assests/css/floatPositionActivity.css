@@ -25,7 +25,7 @@ section {
 
 #sidebar {
   background: lightgoldenrodyellow;
-  height: 500px;
+  height: 350px;
   padding: 20px;
   width: 20%;
   float: left;
@@ -33,7 +33,7 @@ section {
 
 #largeContent {
   width: 80%;
-  height: 500px;
+  height: 350px;
   background-color: darkolivegreen;
   width:80%;
   float:left;
@@ -44,7 +44,7 @@ section {
 #left {
   width: 30%;
   padding: 10px;
-  height: 600px;
+  height: 450px;
   color: white;
   background:grey;
   float: left;
@@ -60,7 +60,7 @@ section {
 #right {
   padding: 10px;
   background:grey;
-  height: 600px;
+  height: 450px;
   color: white;
 }
 
