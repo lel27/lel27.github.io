@@ -1,4 +1,5 @@
-.section {
+<head><meta charset=“utf-8”><meta name=“viewport” content=“width=device-width,
+initial-scale=1”><title>CSS Training Page</title><link rel="stylesheet"href="assests/css/cssTraining.css"type="text/css"></head>.section {
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -20,7 +21,7 @@
 }
 
 h5 {
-    color:lightblue;
+    color: lightblue;
 }
 
 .whiteText {
