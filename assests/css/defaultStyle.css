@@ -1,11 +1,10 @@
 .pStyle {
-    color: green;
+    color: lightskyblue;
     font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, Helvetica, sans-serif 'Trebuchet MS', sans-serif;
 }
-
 body {
-    background-color: paleturquoise;
+    background-color: white;
     background-image: url("../images/SU.jpg");
     background-size: cover;
 }
@@ -14,7 +13,7 @@ body {
 #firstbox {
     width: 200px;
     height: 200px;
-    background: lightsalmon;
+    background: lightsteelblue;
     border: dashed;
     padding: 5px;
 }
@@ -22,9 +21,9 @@ body {
 #secondbox {
     width: 300px;
     height: 200px;
-    background: lightsteelblue;
+    background: peachpuff;
     border: ridge;
     padding: 10px;
     margin-top: 20px;
-
+    
 }
