@@ -101,3 +101,6 @@ h5 {
     background-color: blue;
     border: 2px solid aqua;
 }
+a:visited {
+color: red
+}
