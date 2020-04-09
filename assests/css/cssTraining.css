@@ -69,7 +69,7 @@ h5 {
     padding: 40px;
     margin: 0;
     text-align: center;
-    background: red;
+    background: orange;
   }
   .wrapper {
     width: 600px;
@@ -89,5 +89,5 @@ h5 {
     width: 250px;
     padding: 20px;
     text-align: center;
-    background: #999;
+    background:olive;
   }
