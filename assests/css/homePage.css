@@ -6,3 +6,12 @@ body {
   background-size: cover;
 }
 </style>
+
+.hover-state:hover {
+  color: white;
+  background-color:red;
+  border: 2px white;
+}
+a:visited {
+color: red
+}
