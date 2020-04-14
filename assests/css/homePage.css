@@ -19,4 +19,5 @@ a:active {
   background-color: red;
   color: white;
   text-decoration: underline;
+  border: 2px green;
 }
