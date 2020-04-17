@@ -96,7 +96,7 @@ a.btn.projectCardBtn:hover {
 }
 
 .projectGallerySection .card-title {
-  color:#34af95;
+  color: lightslategray;
   text-decoration: underline;
   text-transform: capitalize;
   font-weight: bold;
