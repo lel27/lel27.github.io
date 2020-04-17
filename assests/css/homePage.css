@@ -23,3 +23,81 @@ a:active {
   border: 2px green;
 }
 
+body {
+  font-family: "Roboto Slab", sans-serif;
+  padding-bottom: 120px;
+}
+
+footer {
+  padding:40px;
+  background: lightslategray;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  text-align: center;
+  color:white;
+}
+
+.height200 {
+  height: 200px;
+  background-color: lightgrey;
+  margin: 20px 0;
+}
+
+/* navigation custom styling */
+.customNavBg {
+  background-color: darkolivegreen!important;
+}
+
+.customNavBg > a.navbar-brand:hover {
+  color: white
+}
+
+.customNavBg li {
+  margin-right: 20px;
+}
+
+.customNavBg li.nav-item.active > a {
+  color: orange;
+  font-weight: bold;
+}
+
+.customNavBg a {
+  color: white;
+}
+
+.customNavBg li > a:hover {
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.customNavBg a.dropdown-item {
+  color: lightslategray;
+  background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* section title styling */
+.sectionTitle {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.sectionTitle h2 {
+  color: teal;
+  font-weight: bold;
+}
+
+.sectionTitle hr {
+  border: 2px solid teal;
+  width: 30%;
+}
+
