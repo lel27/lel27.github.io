@@ -13,8 +13,8 @@
 
 <body>
     <!----Nav Bar---->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-        <a class="navbar-brand" href="#">LEL</a>
+    <nav class="navbar navbar-expand-lg customBg">
+        <a class="navbar-brand" href="index.html">LEL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
             aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,15 +28,15 @@
                     <a class="nav-link" href="cssTraining.html">cssTraining</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="floatPositionActivity.html">floatPositionActivity</a>
+                    <a class="nav-link" href="floatPositionActivity.html">floatPositionActivity</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu">
                         <a class="dropdown-item" href="mailto: lauraelopez27@yahoo.com">Email</a>
-                        <a class="dropdown-item" href="https://github.com/lel27/lel27.github.io">Github Page</a>
-                        <a class="dropdown-item" href="https://lel27.github.io/#">Portfolio</a>
+                        <a class="dropdown-item" href="https://github.com/lel27">Github Page</a>
+                        <a class="dropdown-item" href="https://lel27.github.io">5d Website</a>
                     </div>
                 </li>
             </ul>
@@ -45,76 +45,104 @@
             </form>
         </div>
     </nav>
-    <!---- description section ---->
-    <h1>Student Bio</h1>
-    <h3 class="pStyle">Laura Lopez</h3>
-
-    <style>
-        .circleImage {
-            border-radius: 50%;
-            border-color: olivedrab;
-            border-style: dashed;
-            border-width: 7px;
-
-        }
-    </style>
-    <a href="contact.html">
-        <img class="circleImage" src="assests/images/avatar.jpg" alt="profile" width=300 height=auto />
-    </a>
-
-    <br>
-    <p class="pStyle"> My name is Laura Lopez and I am a VCD student at Cal Poly Pomona</p>
-
-    <!--project section-->
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <!-- Content Container -->
+    <div class="container-fluid">
+        <!--Bio Title -->
+        <section class="sectionTitle">
+            <h2>About Me</h2>
+            <hr>
+        </section>
+        <!---- description section ---->
+        <div class="row align-items-center customDescriptionSection">
+            <div class="col-12 col-md-4 avataCol justify-content-center">
+                <a href="contact.html">
+                    <img class="circleImage" src="assests/images/avatar.jpg" height="auto" width="200">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 bioTxt">
+                <p> I am VCD Student at Cal Poly Pomona</p>
+                <p> "lorem ipsum"</p>
+            </div>
+            <div class="col-12 col-md-4 avataCol justify-content-center">
+                <a href="contact.html">
+                    <img class="circleImage" src="assests/images/avatar.jpg"
+                    height="auto" width="200">
+                </a>
+            </div>
         </div>
-      </div>
-    <!---- contact section ---->
-    <h1 id="heading">Contact Info</h1>
-    <ul>
-        <li> Email:
-            <a href="lauraelopez27@yahoo.com" target="_blank">lauraelopez27@yahoo.com </a>
-        <li> Github:
-            <a href="lel27" target="_blank">lel27 </a>
-        <li> Portfolio:
-            <a href="Coming Soon" target="_blank">coming soon </a>
-    </ul>
-    <p class="pStyle">hello :)</p>
-    <img src="assests/images/SU.jpg" width="200" height="auto">
+        <!--project title-->
+        <section class="sectionTitle">
+            <h2>Projects Gallery</h2>
+            <hr>
+        </section>
+        <!-- projects card section -->
+        <div class="row justify-content-center projectGallerySection">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="assests/images/SU.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"> Steven Universe Project</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn projectCardBtn">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="assests/images/ClaireBA.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Claire Project</h5>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.  
+                </p>
+                <a href="#" class="btn projectCardBtn">View Project</a>
+            </div>
+        </div>
+        <!---- contact section ---->
+        <h1 id="heading">Contact Info</h1>
+        <ul>
+            <li> Email:
+                <a href="lauraelopez27@yahoo.com" target="_blank">lauraelopez27@yahoo.com </a>
+            <li> Github:
+                <a href="lel27" target="_blank">lel27 </a>
+            <li> Portfolio:
+                <a href="Coming Soon" target="_blank">coming soon </a>
+        </ul>
+        <p class="pStyle">hello :)</p>
+        <img src="assests/images/SU.jpg" width="200" height="auto">
 
-    <div id="firstbox">
-        "This is my firstbox"
-        <a href="cssTraining.html">
-            <p>go to css trainging page</p>
-        </a>
-    </div>
+        <div id="firstbox">
+            "This is my firstbox"
+            <a href="cssTraining.html">
+                <p>go to css trainging page</p>
+            </a>
+        </div>
 
-    <br>
+        <br>
 
-    <div id="secondbox">
-        "This is my secondbox"
-        <a href="floatPositionActivity.html">
-            <p>go to float positioning page</p>
-        </a>
-    </div>
+        <div id="secondbox">
+            "This is my secondbox"
+            <a href="floatPositionActivity.html">
+                <p>go to float positioning page</p>
+            </a>
+        </div>
 
-    <!---Pusedo class warm up--->
-    <a href="https://www.paramore.net/splash?ref=">Paramore Website</a>
+        <!---Pusedo class warm up--->
+        <a href="https://www.paramore.net/splash?ref=">Paramore Website</a>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
