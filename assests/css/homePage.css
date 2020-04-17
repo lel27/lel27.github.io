@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: lightgray;
   /* background-image: url("../images/SU.jpg"); */
   background-size: cover;
 }
@@ -73,7 +73,6 @@ a.paramore-link:active {
   padding: 30px 0;
   text-decoration: underline;
   text-align: center;
-  color: orange
 }
 
 .projectGallerySection div.card {
