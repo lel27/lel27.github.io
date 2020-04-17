@@ -5,7 +5,7 @@ body {
 
 footer {
     padding:40px;
-    background: #34af95;
+    background: teal;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -17,7 +17,7 @@ footer {
 
 .height200 {
     height: 200px;
-    background-color: lightgrey;
+    background-color: orange;
     margin: 20px 0;
 }
 
@@ -51,7 +51,7 @@ footer {
 }
 
 .customNavBg a.dropdown-item {
-    color: #34af95;
+    color: teal;
     background-color: transparent;
 }
 
@@ -67,11 +67,11 @@ footer {
 }
 
 .sectionTitle h2 {
-    color: #34af95;
+    color: thistle;
     font-weight: bold;
 }
 
 .sectionTitle hr {
-    border: 2px solid #34af95;
+    border: 2px solid thistle;
     width: 30%;
 }
