@@ -4,7 +4,7 @@ body {
 }
 
 footer {
-    padding:40px;
+    padding: 40px;
     background: olivedrab;
     position: fixed;
     width: 100%;
@@ -12,7 +12,7 @@ footer {
     left: 0;
     height: 100px;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .height200 {
@@ -23,10 +23,10 @@ footer {
 
 /* navigation custom styling */
 .customNavBg {
-    background-color:olivedrab !important;
+    background-color: olivedrab !important;
 }
 
-.customNavBg > a.navbar-brand:hover {
+.customNavBg>a.navbar-brand:hover {
     color: white
 }
 
@@ -34,16 +34,16 @@ footer {
     margin-right: 20px;
 }
 
-.customNavBg li.nav-item.active > a {
+.customNavBg li.nav-item.active>a {
     color: orange;
     font-weight: bold;
 }
 
 .customNavBg a {
-    color:olivedrab;
+    color: olivedrab;
 }
 
-.customNavBg li > a:hover {
+.customNavBg li>a:hover {
     color: orange;
     text-decoration: underline;
     font-weight: bold;
@@ -67,11 +67,11 @@ footer {
 }
 
 .sectionTitle h2 {
-    color: thistle;
+    color: purple;
     font-weight: bold;
 }
 
 .sectionTitle hr {
-    border: 2px solid thistle;
+    border: 2px solid purple;
     width: 30%;
 }
