@@ -23,7 +23,7 @@ footer {
 
 /* navigation custom styling */
 .customNavBg {
-    background-color: #34af95!important;
+    background-color:orange!important;
 }
 
 .customNavBg > a.navbar-brand:hover {
