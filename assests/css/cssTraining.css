@@ -65,7 +65,7 @@ h5 {
 
 /* navigation custom styling */
 .customNavBg {
-    background-color: olivedrab !important;
+    background-color: grey !important;
 }
 
 .customNavBg>a.navbar-brand:hover {
@@ -77,7 +77,7 @@ h5 {
 }
 
 .customNavBg li.nav-item.active>a {
-    color: orange;
+    color:white;
     font-weight: bold;
 }
 
@@ -137,7 +137,7 @@ h5 {
 
 .hover-state:hover {
     color: white;
-    background-color: blue;
+    background-color: lightblue;
     border: 2px solid aqua;
 }
 
