@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  /* background-image: url("../images/huskies.jpg"); */
+  /* background-image: url("../images/SU.jpg"); */
   background-size: cover;
 }
 
@@ -22,23 +22,23 @@ a.paramore-link {
 }
 
 a.paramore-link:visited {
-  color: red;
+  color: purple;
   text-decoration: underline;
 }
 
 a.paramore-link:hover {
-  background-color: green;
+  background-color:thistle;
   color: white;
   text-decoration: none;
 }
 
 a.paramore-link:active {
-  background-color: red;
+  background-color:orange;
   color: white;
-  border: solid 5px #34af95;
+  border: solid 5px olivedrab;
 }
 
-/* ============== BS components components customization ============== */
+/* ======= BS components components customization ======== */
 
 /* description section */
 .customDescriptionSection {
@@ -96,7 +96,7 @@ a.btn.projectCardBtn:hover {
 }
 
 .projectGallerySection .card-title {
-  color: #34af95;
+  color: purple;
   text-decoration: underline;
   text-transform: capitalize;
   font-weight: bold;
