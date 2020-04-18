@@ -82,14 +82,14 @@ a.paramore-link:active {
   width: 100%;
 }
 
-a.btn.projectCardBtn {
+a.projectCardBtn {
   background-color: orange;
   color: white;
   font-weight: bold;
   border: 1px solid transparent;
 }
 
-a.btn.projectCardBtn:hover {
+a.projectCardBtn:hover {
   background-color: transparent;
   border: 1px solid orange;
   color: orange
