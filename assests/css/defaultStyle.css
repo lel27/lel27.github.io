@@ -64,16 +64,18 @@ footer {
 .sectionTitle {
     text-align: center;
     margin: 30px;
+    color: teal;
+    text-decoration: underline;
 }
 
 .sectionTitle h2 {
-    color: darkblue;
+    color: teal;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
 }
 
 .sectionTitle hr {
-    border: 2px solid darkblue;
+    border: 2px solid teal;
     width: 30%;
 }
