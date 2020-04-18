@@ -67,10 +67,10 @@ footer {
 }
 
 .sectionTitle h2 {
+    text-align: center;
     color: purple;
-    font-weight: bold;
-}
-
+ }
+ 
 .sectionTitle hr {
     border: 2px solid purple;
     width: 30%;
