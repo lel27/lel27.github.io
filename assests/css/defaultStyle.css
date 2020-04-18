@@ -64,13 +64,15 @@ footer {
 .sectionTitle {
     text-align: center;
     margin: 30px 0 0 0;
+    color: purple;
 }
 
 .sectionTitle h2 {
     text-align: center;
     color: purple;
+    text-decoration: underline;
  }
- 
+
 .sectionTitle hr {
     border: 2px solid purple;
     width: 30%;
