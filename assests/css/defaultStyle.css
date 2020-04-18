@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     padding-bottom: 120px;
 }
 
 footer {
     padding: 40px;
-    background: olivedrab;
+    background: #34af95;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -17,13 +17,13 @@ footer {
 
 .height200 {
     height: 200px;
-    background-color: orange;
+    background-color: lightgrey;
     margin: 20px 0;
 }
 
 /* navigation custom styling */
 .customNavBg {
-    background-color: olivedrab !important;
+    background-color: #34af95 !important;
 }
 
 .customNavBg>a.navbar-brand:hover {
@@ -40,7 +40,7 @@ footer {
 }
 
 .customNavBg a {
-    color: olivedrab;
+    color: white;
 }
 
 .customNavBg li>a:hover {
@@ -51,7 +51,7 @@ footer {
 }
 
 .customNavBg a.dropdown-item {
-    color: teal;
+    color: #34af95;
     background-color: transparent;
 }
 
@@ -64,16 +64,14 @@ footer {
 .sectionTitle {
     text-align: center;
     margin: 30px 0 0 0;
-    color: purple;
 }
 
 .sectionTitle h2 {
-    text-align: center;
-    color: purple;
-    text-decoration: underline;
- }
+    color: #34af95;
+    font-weight: bold;
+}
 
 .sectionTitle hr {
-    border: 2px solid purple;
+    border: 2px solid #34af95;
     width: 30%;
 }
