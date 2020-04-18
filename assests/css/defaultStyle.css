@@ -78,4 +78,5 @@ footer {
 .sectionTitle hr {
     border: 2px solid teal;
     width: 30%;
+    text-decoration: underline;
 }
