@@ -1,13 +1,13 @@
 body {
-  background-color: lightgray;
-  /* background-image: url("../images/SU.jpg"); */
+  background-color: white;
+  /* background-image: url("../images/huskies.jpg"); */
   background-size: cover;
 }
 
 .circleImage {
   border-radius: 80%;
-  border-width: 5px;
-  border-color: olivedrab;
+  border-width: 15px;
+  border-color: orange;
   border-style: dashed;
 }
 
@@ -22,20 +22,20 @@ a.paramore-link {
 }
 
 a.paramore-link:visited {
-  color: palevioletred;
+  color: red;
   text-decoration: underline;
 }
 
 a.paramore-link:hover {
-  background-color: lightcoral;
+  background-color: green;
   color: white;
   text-decoration: none;
 }
 
 a.paramore-link:active {
-  background-color: indigo;
+  background-color: red;
   color: white;
-  border: solid 5px aqua;
+  border: solid 5px #34af95;
 }
 
 /* ============== BS components components customization ============== */
@@ -71,8 +71,6 @@ a.paramore-link:active {
 /* project gallery section */
 .projectGallerySection {
   padding: 30px 0;
-  text-decoration: underline;
-  text-align: center;
 }
 
 .projectGallerySection div.card {
@@ -98,7 +96,7 @@ a.btn.projectCardBtn:hover {
 }
 
 .projectGallerySection .card-title {
-  color: lightslategray;
+  color: #34af95;
   text-decoration: underline;
   text-transform: capitalize;
   font-weight: bold;
