@@ -69,6 +69,8 @@ footer {
 .sectionTitle h2 {
     color: darkblue;
     font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .sectionTitle hr {
