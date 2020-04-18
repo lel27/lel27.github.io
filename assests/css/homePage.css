@@ -7,8 +7,8 @@ body {
 .circleImage {
   border-radius: 80%;
   border-width: 15px;
-  border-color: orange;
   border-style: dashed;
+  border-color: orange;
 }
 
 
