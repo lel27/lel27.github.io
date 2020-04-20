@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  /* background-image: url("../images/SU.jpg"); */
   background-size: cover;
 }
 
@@ -11,8 +10,6 @@ body {
   border-color: orange;
 }
 
-
-/* pseudo class exercise */
 a.paramore-link {
   color: green;
   font-size: 30px;
@@ -38,8 +35,6 @@ a.paramore-link:active {
   border: solid 5px olivedrab;
 }
 
-/* ======= BS components components customization ======== */
-/* description section */
 .customDescriptionSection {
   margin-top: 30px;
 }
@@ -67,7 +62,6 @@ a.paramore-link:active {
   letter-spacing: 2px;
 }
 
-/* project gallery section */
 .projectGallerySection {
   padding: 30px 0;
 }
