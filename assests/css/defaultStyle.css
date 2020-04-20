@@ -21,7 +21,6 @@ footer {
     margin: 20px 0;
 }
 
-/* navigation custom styling */
 .customNavBg {
     background-color: grey !important;
 }
@@ -60,7 +59,6 @@ footer {
     text-decoration: underline;
 }
 
-/* section title styling */
 .sectionTitle {
     text-align: center;
     margin: 30px;

@@ -75,7 +75,7 @@ a.paramore-link:active {
   width: 100%;
 }
 
-a.btn.projectCardBtn {
+a.btnprojectCardBtn {
   background-color: orange;
   color: white;
   font-weight: bold;
@@ -83,7 +83,7 @@ a.btn.projectCardBtn {
   align-self: center;
 }
 
-a.btn.projectCardBtn:hover {
+a.btnprojectCardBtn:hover {
   background-color: transparent;
   border: 1px solid orange;
   color: orange
