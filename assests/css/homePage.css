@@ -103,3 +103,8 @@ a.btn.projectCardBtn:hover {
   font-weight: bold;
   letter-spacing: 3px;
 }
+
+.modal-content {
+  background-color: orange;
+  color: white;
+}
