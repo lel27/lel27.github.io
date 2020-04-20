@@ -87,6 +87,7 @@ a.btn.projectCardBtn {
   color: white;
   font-weight: bold;
   border: 1px solid transparent;
+  align-self: center;
 }
 
 a.btn.projectCardBtn:hover {
