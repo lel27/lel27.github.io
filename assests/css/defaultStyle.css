@@ -78,16 +78,10 @@ footer {
 }
 
 /* tool tip */
-.customToolTip>div {
-    display: flex;
-    justify-content: center;
-}
-
-.customToolTip a.btn span i.fas.fa-chevron-circle-up {
-    color: purple;
-    font-size: 25px;
-}
-
-.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
-    color: #34af95;
+.tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
 }
