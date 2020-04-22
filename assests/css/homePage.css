@@ -135,8 +135,8 @@ a.paramore-link:active {
 
 .carousel-indicators>li {
   border-radius: 12px;
-  width: 12px;
-  height: 12px;
+  width: auto;
+  height: 5px;
   background-color: #404040;
 }
 
