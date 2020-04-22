@@ -132,3 +132,7 @@ a.paramore-link:active {
 .customProjectCarousel div.carousel-inner img {
   height: 350px;
 }
+
+.carousel-indicators>li {
+  border-radius: 50%;
+}
