@@ -76,3 +76,18 @@ footer {
     border: 2px solid teal;
     width: 30%;
 }
+
+/* tool tip */
+.customToolTip>div {
+    display: flex;
+    justify-content: center;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up {
+    color: purple;
+    font-size: 25px;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
+    color: olivedrab;
+}
