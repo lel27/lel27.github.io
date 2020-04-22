@@ -134,9 +134,10 @@ a.paramore-link:active {
 }
 
 .carousel-indicators>li {
-  border-radius: 50%;
-  height: auto;
-  background-color: transparent;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
 }
 
 .carousel-indicators .active {
