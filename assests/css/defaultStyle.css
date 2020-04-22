@@ -78,10 +78,16 @@ footer {
 }
 
 /* tool tip */
-.tooltip .tooltiptext {
+.tooltip {
     width: 120px;
     top: 100%;
     left: 50%;
     margin-left: -60px;
-    /* Use half of the width (120/2 = 60), to center the tooltip */
+    display: flex;
+    justify-content: center;
+}
+
+\.customToolTip a.btn span i.fas.fa-chevron-circle-up {
+    color: orange;
+    font-size: 25px;
 }
