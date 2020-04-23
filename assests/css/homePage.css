@@ -137,7 +137,7 @@ a.paramore-link:active {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  background-color: #404040;
+  background-color: transparent;
 }
 
 .carousel-indicators .active {
@@ -145,5 +145,5 @@ a.paramore-link:active {
 }
 
 .carousel-indicators .hover {
-  background-color: olivedrab;
+  background-color: orange;
 }
