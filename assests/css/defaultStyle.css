@@ -78,11 +78,16 @@ footer {
 }
 
 /* tool tip */
-.tooltip {
-    width: 120px;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
+.customToolTip>div {
     display: flex;
     justify-content: center;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up {
+    color: orange;
+    font-size: 25px;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
+    color: #34af95;
 }
