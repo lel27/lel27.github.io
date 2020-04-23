@@ -133,7 +133,7 @@ a.paramore-link:active {
   height: 350px;
 }
 
-.carousel-indicators > li {
+.carousel-indicators>li {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -148,10 +148,6 @@ a.paramore-link:active {
   background-color: orange;
 }
 
-.carousel-control-next-icon:after {
-  color: orange;
-}
-
-.carousel-control-prev-icon:after {
+.carousel-control {
   color: orange;
 }
