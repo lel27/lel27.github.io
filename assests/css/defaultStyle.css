@@ -86,8 +86,3 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-\.customToolTip a.btn span i.fas.fa-chevron-circle-up {
-    color: orange;
-    font-size: 25px;
-}
