@@ -147,14 +147,3 @@ a.paramore-link:active {
 .carousel-indicators .hover {
   background-color: orange;
 }
-
-
-.carousel-control.right {
-  opacity: 1 !important;
-  color: olivedrab !important;
-}
-
-.carousel-control.left {
-  opacity: 1 !important;
-  color: olivedrab !important;
-}
