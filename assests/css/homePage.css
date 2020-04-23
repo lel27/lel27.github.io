@@ -147,3 +147,9 @@ a.paramore-link:active {
 .carousel-indicators .hover {
   background-color: orange;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightskyblue;
+  }
+}
