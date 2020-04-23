@@ -80,4 +80,5 @@ footer {
 /* tool tip */
 .tooltip {
     text-align: center;
+    scroll-behavior: smooth;
 }
