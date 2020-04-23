@@ -4,7 +4,7 @@ body {
 }
 
 .circleImage {
-  border-radius: 80%;
+  border-radius: 50%;
   border-width: 10px;
   border-style: dashed;
   border-color: orange;
@@ -133,7 +133,7 @@ a.paramore-link:active {
   height: 350px;
 }
 
-.carousel-indicators>li {
+.carousel-indicators {
   border-radius: 50%;
   width: 20px;
   height: 20px;
