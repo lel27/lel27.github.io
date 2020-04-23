@@ -148,6 +148,13 @@ a.paramore-link:active {
   background-color: orange;
 }
 
-.carousel-control {
-  color: orange;
+
+.carousel-control.right {
+  opacity: 1 !important;
+  color: olivedrab;
+}
+
+.carousel-control.left {
+  opacity: 1 !important;
+  color: olivedrab;
 }
