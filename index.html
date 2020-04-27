@@ -420,7 +420,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!---- <script>
+    <script>
         $(document).ready(function () {
                     $('[data-toggle="tooltip"]').tooltip();
 
@@ -437,29 +437,7 @@
                                         });
                                     }
                                 });
-    </script> -->
-
-    <script>
-        $(document).ready(function () {
-            // tool tip
-            $('[data-toggle="tooltip"]').tooltip();
-
-            // smooth scroll for scroll spy
-            $("a.toTop").on('click', function (event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function () {
-                        window.location.hash = hash;
-                    });
-                }
-            });
-        });
     </script>
-
 </body>
 
 </html>
